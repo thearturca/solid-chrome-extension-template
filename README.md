@@ -11,7 +11,7 @@
 
 ## Intro <a name="intro"></a>
 
-> [!About this fork]
+> [!IMPORTANT]
 > This is updated version of [solid-chrome-extension-template](https://github.com/fuyutarow/solid-chrome-extension-template). 
 > All dependencies are updated. Jest replaced with Vitest.
 
