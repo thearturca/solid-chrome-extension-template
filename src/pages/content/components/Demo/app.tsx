@@ -7,13 +7,13 @@ const App = () => {
     <div class="fixed right-5 top-20 z-[2000] w-80 rounded-xl bg-white">
       <div class={styles.App}>
         <header class={styles.header}>
-          <img
-            src={chrome.runtime.getURL(logo)}
-            class={styles.logo}
-            alt="logo"
-          />
-          <p class="flex flex-wrap font-bold">
-            Edit <code>src/pages/content/index.tsx</code> and save to reload.
+          <img src={logo} class={styles.logo} alt="logo" />
+          <p class="font-bold">
+            Edit{" "}
+            <code class="text-[length:inherit]">
+              src/pages/content/index.tsx
+            </code>{" "}
+            and save to reload.
           </p>
           <a
             href="https://github.com/solidjs/solid"

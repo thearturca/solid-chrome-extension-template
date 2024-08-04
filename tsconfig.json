@@ -11,34 +11,25 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "moduleResolution": "node",
-    "types": [
-      "vite/client",
-      "node"
-    ],
+    "types": ["vite/client", "node", "@testing-library/jest-dom"],
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@src/*": [
-        "src/*"
-      ],
-      "@assets/*": [
-        "src/assets/*"
-      ],
-      "@pages/*": [
-        "src/pages/*"
-      ]
+      "@src/*": ["src/*"],
+      "@assets/*": ["src/assets/*"],
+      "@pages/*": ["src/pages/*"]
     }
   },
   "include": [
     "src",
     "utils",
     "vite.config.ts",
+    "eslint.config.mjs",
+    "tailwind.config.cjs",
+    "postcss.config.cjs",
+    "jest.config.js",
     "node_modules/@types",
     "src/manifest.ts"
   ]
