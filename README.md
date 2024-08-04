@@ -38,7 +38,7 @@ This boilerplate is made for creating chrome extensions using SolidJS and Typesc
 1. At top right of this page, click on **Use this template** > **Create a new repository**.
 2. Clone new repository.
 3. Change `name` and `description` in package.json => **Auto synchronize with manifest**
-4. Run `yarn` or `npm i` (check your node version >= 16)
+4. Run `yarn` or `npm i` (check your node version >= 20)
 5. Run `yarn dev` or `npm run dev`
 6. Load Extension on Chrome
    1. Open - Chrome browser
@@ -58,3 +58,7 @@ This boilerplate is made for creating chrome extensions using SolidJS and Typesc
 - [ChromeExtension](https://developer.chrome.com/docs/extensions/mv3/)
 - [Rollup](https://rollupjs.org/guide/en/)
 - [Rollup-plugin-chrome-extension](https://www.extend-chrome.dev/rollup-plugin)
+
+## Support
+
+If you found this template helpful and want to support, please [donate](https://boosty.to/thearturca/single-payment/donation/495699/target?share=target_link)
