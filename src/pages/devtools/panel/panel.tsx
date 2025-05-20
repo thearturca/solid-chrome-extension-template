@@ -1,16 +1,17 @@
 import logo from "@assets/img/logo.svg";
 
-const Newtab = () => {
+const Panel = () => {
   return (
     <div class="text-center">
-      <header class="bg-[#282c34] min-h-screen flex flex-col items-center justify-center text-white text-[calc(10px + 1vmin)]">
+      <header class="bg-[#282c34] min-h-screen flex flex-col items-center justify-center text-white text-[calc(10px + 2vmin)]">
         <img
           src={logo}
-          class="animate-slow-spin h-[20vmin] pointer-events-none"
+          class="animate-slow-spin h-[40vmin] pointer-events-none"
           alt="logo"
         />
         <p class="font-bold">
-          Edit <code>src/pages/newtab/newtab.tsx</code> and save to reload.
+          Edit <code>src/pages/devtools/panel/panel.tsx</code> and save to
+          reload.
         </p>
         <a
           class="text-[#b318f0]"
@@ -25,4 +26,4 @@ const Newtab = () => {
   );
 };
 
-export default Newtab;
+export default Panel;

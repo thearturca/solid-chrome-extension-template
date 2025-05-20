@@ -1,6 +1,7 @@
-import { render } from "solid-js/web";
+import "@src/styles/index.css";
 import "./index.css";
-import Popup from "./Popup";
+import { render } from "solid-js/web";
+import Popup from "./popup";
 
 const appContainer = document.querySelector("#app-container");
 if (!appContainer) {

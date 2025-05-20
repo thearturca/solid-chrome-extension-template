@@ -1,6 +1,6 @@
+import "@src/styles/index.css";
 import { render } from "solid-js/web";
-import "./index.css";
-import Option from "./Options";
+import Option from "./options";
 
 const appContainer = document.querySelector("#app-container");
 if (!appContainer) {

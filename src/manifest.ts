@@ -28,13 +28,18 @@ const manifest = defineManifest(async () => ({
   content_scripts: [
     {
       matches: ["http://*/*", "https://*/*", "<all_urls>"],
-      js: ["src/pages/content/index.tsx"],
+      js: ["src/pages/content/index.ts"],
     },
   ],
   devtools_page: "src/pages/devtools/index.html",
   web_accessible_resources: [
     {
-      resources: ["assets/js/*.js", "assets/css/*.css", "assets/img/*"],
+      resources: [
+        "assets/*.js",
+        "assets/*.css",
+        "assets/img/*",
+        "src/pages/*.html",
+      ],
       matches: ["*://*/*"],
     },
   ],

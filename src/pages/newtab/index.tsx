@@ -1,6 +1,6 @@
+import "@src/styles/index.css";
 import { render } from "solid-js/web";
-import "./index.css";
-import Newtab from "./Newtab";
+import Newtab from "./newtab";
 
 const appContainer = document.querySelector("#app-container");
 if (!appContainer) {

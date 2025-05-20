@@ -12,7 +12,7 @@
 ## Intro <a name="intro"></a>
 
 > [!IMPORTANT]
-> This is updated version of [solid-chrome-extension-template](https://github.com/fuyutarow/solid-chrome-extension-template). 
+> This is updated version of [solid-chrome-extension-template](https://github.com/fuyutarow/solid-chrome-extension-template).
 > All dependencies are updated. Jest replaced with Vitest.
 
 This boilerplate is made for creating chrome extensions using SolidJS and Typescript.

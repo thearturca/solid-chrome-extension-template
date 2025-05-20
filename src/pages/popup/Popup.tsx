@@ -1,17 +1,19 @@
 import logo from "@assets/img/logo.svg";
-import "@src/styles/index.css";
-import styles from "./Popup.module.css";
 
 const Popup = () => {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
+    <div class="text-center">
+      <header class="bg-[#282c34] min-h-screen flex flex-col items-center justify-center text-white text-[calc(10px + 2vmin)]">
+        <img
+          src={logo}
+          class="animate-slow-spin h-[40vmin] pointer-events-none"
+          alt="logo"
+        />
         <p class="font-bold">
-          Edit <code>src/pages/popup/Popup.tsx</code> and save to reload.
+          Edit <code>src/pages/popup/popup.tsx</code> and save to reload.
         </p>
         <a
-          class={styles.link}
+          class="text-[#b318f0]"
           href="https://github.com/solidjs/solid"
           target="_blank"
           rel="noopener noreferrer"

@@ -5,7 +5,7 @@ import globals from "globals";
 import tseslint from "typescript-eslint";
 import tailwindCSS from "eslint-plugin-tailwindcss";
 import prettier from "eslint-config-prettier";
-import solid from "eslint-plugin-solid/configs/typescript.js";
+import solid from "eslint-plugin-solid/configs/typescript";
 import * as tsParser from "@typescript-eslint/parser";
 
 export default tseslint.config(

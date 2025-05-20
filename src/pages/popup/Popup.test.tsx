@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import Popup from "./Popup";
+import Popup from "./popup";
 import { render } from "@solidjs/testing-library";
 
 test("Popup", () => {
